@@ -1,3 +1,8 @@
+///==========================================
+/// Title:  SAB SYSTEM
+/// Author: Thiago de Jesus Vieira
+/// Date:   11 Mai 2022
+///==========================================
 import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
@@ -16,6 +21,10 @@ class appEstacio extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    SystemChrome.setPreferredOrientations([
+      DeviceOrientation.portraitUp,
+      DeviceOrientation.portraitDown,
+    ]);
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
       home: home(),
@@ -34,8 +43,8 @@ Future<void> salvarDB(String cpf, String avaliacao) async{
   await _aluno.save();
 }
 Future <void> conectionDB()async{
-  final KeyApplicationId = 'EEvQ61dQLvH8SoBJ0ps3ilSJ2TObdRdxP4BBnRii';
-  final KeyClientKey = 'MbPhZmWu5Iorxtw1VGK8phVv4hGZXvwEW8T9GgUt';
+  final KeyApplicationId = 'dUN4mfylcFDZj58j0rroRJmOnqVLDqnLw2Zagyh3';
+  final KeyClientKey = 'tgoVCrlhQF19U6GV53vMIOa80TiFi6KcVG3APLYu';
   final KeyParseServerUrl = 'https://parseapi.back4app.com';
 
   await Parse().initialize(KeyApplicationId, KeyParseServerUrl, clientKey: KeyClientKey, autoSendSessionId: true);
