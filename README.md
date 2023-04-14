@@ -11,17 +11,17 @@ Requisitos do Sistema:
 
 Recursos do Software:
 
-Avaliação de NPS: O software permite que os usuários avaliem sua experiência com uma empresa ou serviço usando o método de pontuação de Net Promoter Score (NPS). Os usuários podem classificar sua satisfação em uma escala de 0 a 10, com 0 sendo "muito insatisfeito" e 10 sendo "muito satisfeito".
+- Avaliação de NPS: O software permite que os usuários avaliem sua experiência com uma empresa ou serviço usando o método de pontuação de Net Promoter Score (NPS). Os usuários podem classificar sua satisfação em uma escala de 0 a 10, com 0 sendo "muito insatisfeito" e 10 sendo "muito satisfeito".
 
-Armazenamento de Avaliações: As avaliações de NPS dos usuários são armazenadas no banco de dados relacional na Back4App. Cada avaliação é registrada com detalhes como a pontuação do NPS, a data da avaliação e outros dados relevantes.
+- Armazenamento de Avaliações: As avaliações de NPS dos usuários são armazenadas no banco de dados relacional na Back4App. Cada avaliação é registrada com detalhes como a pontuação do NPS, a data da avaliação e outros dados relevantes.
 
-Gerenciamento de Avaliações: O software permite que os administradores gerenciem as avaliações de NPS dos usuários. Os administradores podem visualizar, filtrar e exportar as avaliações em formato CSV ou Excel para análise posterior.
+- Gerenciamento de Avaliações: O software permite que os administradores gerenciem as avaliações de NPS dos usuários. Os administradores podem visualizar, filtrar e exportar as avaliações em formato CSV ou Excel para análise posterior.
 
-Análise de NPS: O software também fornece recursos de análise de NPS, como cálculo automático da pontuação média do NPS com base nas avaliações dos usuários. Os administradores podem monitorar a tendência de satisfação do cliente ao longo do tempo e identificar áreas de melhoria.
+- Análise de NPS: O software também fornece recursos de análise de NPS, como cálculo automático da pontuação média do NPS com base nas avaliações dos usuários. Os administradores podem monitorar a tendência de satisfação do cliente ao longo do tempo e identificar áreas de melhoria.
 
-Autenticação de Usuário: O software possui um sistema de autenticação de usuário para proteger as avaliações de NPS dos usuários. Os usuários precisam se registrar e fazer login para acessar o recurso de avaliação.
+- Autenticação de Usuário: O software possui um sistema de autenticação de usuário para proteger as avaliações de NPS dos usuários. Os usuários precisam se registrar e fazer login para acessar o recurso de avaliação.
 
-Personalização de Marca: O software permite que os administradores personalizem a aparência do aplicativo, incluindo logotipo, cores e outros elementos de marca, para criar uma experiência de usuário consistente com a identidade visual da empresa.
+- Personalização de Marca: O software permite que os administradores personalizem a aparência do aplicativo, incluindo logotipo, cores e outros elementos de marca, para criar uma experiência de usuário consistente com a identidade visual da empresa.
 
 Segue abaixo uma breve demonstração do Software de Avaliação de NPS:
 
