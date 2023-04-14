@@ -43,9 +43,9 @@ Future<void> salvarDB(String cpf, String avaliacao) async{
   await _aluno.save();
 }
 Future <void> conectionDB()async{
-  final KeyApplicationId = 'dUN4mfylcFDZj58j0rroRJmOnqVLDqnLw2Zagyh3';
-  final KeyClientKey = 'tgoVCrlhQF19U6GV53vMIOa80TiFi6KcVG3APLYu';
-  final KeyParseServerUrl = 'https://parseapi.back4app.com';
+  final KeyApplicationId = 'KeyApplication';
+  final KeyClientKey = 'KeyClient';
+  final KeyParseServerUrl = 'Uri';
 
   await Parse().initialize(KeyApplicationId, KeyParseServerUrl, clientKey: KeyClientKey, autoSendSessionId: true);
 }
